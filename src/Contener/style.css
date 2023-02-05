@@ -1,0 +1,13 @@
+.taskListContener {
+    margin: 0px 50px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+@media (max-width:767px) {
+    .taskListContener {
+        margin: 0px 5px;
+    }
+}

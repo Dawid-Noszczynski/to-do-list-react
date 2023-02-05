@@ -1,0 +1,56 @@
+.taskContener__list {
+    font-size: 20px;
+    margin: 20px 10px;
+    padding-left: 0px;
+    min-height: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.taskContener__listItem {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 16fr 1fr;
+    grid-gap: 10px;
+    min-height: 25px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(222, 221, 221);
+}
+
+.taskContener__listItem--hidden {
+    display: none;
+}
+
+.taskContener__task {
+    font-weight: 300;
+}
+
+.taskContener__task--done {
+    text-decoration: line-through;
+}
+
+.taskContener__button {
+    background-color: rgb(247, 81, 81);
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.taskContener__button:hover {
+    background-color: hsl(0, 91%, 55%);
+}
+
+.taskContener__button--done {
+    background-color: rgb(22, 161, 22);
+    transition: 1s;
+}
+
+.taskContener__button--done:hover {
+    background-color: hsl(120, 76%, 45%);
+}
