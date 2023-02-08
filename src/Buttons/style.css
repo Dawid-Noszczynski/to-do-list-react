@@ -1,11 +1,11 @@
-.taskContener__buttons {
+.buttons {
     padding: 20px;
     display: grid;
     grid-template-columns: auto auto;
 }
 
 @media (max-width: 767px) {
-    .taskContener__buttons {
+    .buttons {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
@@ -13,7 +13,7 @@
     }
 }
 
-.taskContener__headerButton {
+.buttons__headerButton {
     background-color: white;
     color: teal;
     border: none;
@@ -21,15 +21,15 @@
     transition: 1s;
 }
 
-.taskContener__headerButton:hover {
+.buttons__headerButton:hover {
     color: hsl(180, 100%, 40%);
 }
 
-.taskContener__headerButton:active {
+.buttons__headerButton:active {
     border: 2px solid #000;
 }
 
-.taskContener__headerButton:disabled {
+.buttons__headerButton:disabled {
     color: grey;
     border: none;
 }

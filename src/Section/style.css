@@ -1,9 +1,9 @@
-.taskContener {
+.section {
     background-color: #fff;
     border: 1px solid rgb(222, 221, 221);
 }
 
-.taskContener__headerContener {
+.section__headerContainer {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 15px;
@@ -11,19 +11,15 @@
 }
 
 @media (max-width: 767px) {
-    .taskContener__headerContener {
+    .section__headerContainer {
         padding: 15px;
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
     }
-
-    .taskContener__header {
-        justify-self: start;
-    }
 }
 
-.taskContener__header {
+.section__header {
     font-size: 20px;
     padding: 20px;
     margin: 0px;
@@ -31,11 +27,12 @@
 }
 
 @media (max-width:767px) {
-    .taskContener__header {
+    .section__header {
+        justify-self: start;
         padding: 5px;
     }
 }
 
-.taskContener__line {
+.section__line {
     border-bottom: 1px solid rgb(222, 221, 221);
 }

@@ -1,4 +1,4 @@
-.formContener__form {
+.form {
     padding: 20px;
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -7,19 +7,19 @@
 }
 
 @media (max-width:767px) {
-    .formContener__form {
+    .form {
         display: grid;
         grid-template-columns: 1fr;
         grid-auto-rows: 50px;
     }
 }
 
-.formContener__inputField {
+.form__inputField {
     border: 1px solid rgb(222, 221, 221);
     padding-left: 10px;
 }
 
-.formContener__button {
+.form__button {
     background-color: teal;
     color: #fff;
     font-weight: 300;
@@ -27,7 +27,7 @@
     transition: 1s;
 }
 
-.formContener__button:hover {
+.form__button:hover {
     background-color: hsl(180, 100%, 40%);
     transform: scale(1.1);
 }

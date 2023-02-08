@@ -1,4 +1,4 @@
-.taskListContener {
+.container {
     margin: 0px 50px;
     padding: 20px;
     display: grid;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width:767px) {
-    .taskListContener {
+    .container {
         margin: 0px 5px;
     }
 }
