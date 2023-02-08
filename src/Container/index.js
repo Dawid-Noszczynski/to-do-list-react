@@ -1,9 +1,9 @@
 import "./style.css"
 
-const Contener = ({ children }) => (
+const Container = ({ children }) => (
     <main className="taskListContener">
         {children}
     </main>
 );
 
-export default Contener;
+export default Container;
