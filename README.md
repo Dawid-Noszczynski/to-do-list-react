@@ -9,7 +9,7 @@
 
 This is a simple to-do list. 
 
-This to-do list allows adding new tasks, mark it as done and delete it. **(INTERACTION WILL BE ADDED ASAP)**  
+This to-do list allows adding new tasks, mark it as done and delete it.  
 I built it as part of my frontend developer course.
 
 ## Technologies used in the project: 
@@ -19,6 +19,7 @@ I built it as part of my frontend developer course.
 - JavaScript
 - ES6+ Features
 - React.js
+- Create React App
 
 ## User manual: 
 
